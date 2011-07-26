@@ -23,6 +23,19 @@
 		7CB6699513DE5D7700CB1FF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CB6699313DE5D7700CB1FF3 /* InfoPlist.strings */; };
 		7CB6699713DE5D7700CB1FF3 /* VideoSampleAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7CB6699613DE5D7700CB1FF3 /* VideoSampleAppTests.h */; };
 		7CB6699913DE5D7700CB1FF3 /* VideoSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6699813DE5D7700CB1FF3 /* VideoSampleAppTests.m */; };
+		7CB669B713DE5EAF00CB1FF3 /* libG6PayVideo-1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB669A313DE5EAF00CB1FF3 /* libG6PayVideo-1.0.a */; };
+		7CB669B813DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669AC13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background.png */; };
+		7CB669B913DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669AD13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background@2x.png */; };
+		7CB669BA13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669AE13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button.png */; };
+		7CB669BB13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669AF13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button@2x.png */; };
+		7CB669BC13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B013DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button.png */; };
+		7CB669BD13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B113DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button@2x.png */; };
+		7CB669BE13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B213DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo.png */; };
+		7CB669BF13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B313DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo@2x.png */; };
+		7CB669C013DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B413DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button.png */; };
+		7CB669C113DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B513DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button@2x.png */; };
+		7CB669C213DE5EAF00CB1FF3 /* G6PayOfferView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB669B613DE5EAF00CB1FF3 /* G6PayOfferView.xib */; };
+		7CFAAD5413DE661F00B21D5A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFAAD5313DE661F00B21D5A /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +53,41 @@
 		7CB6696813DE5D7700CB1FF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7CB6696A13DE5D7700CB1FF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CB6696C13DE5D7700CB1FF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7CB6697013DE5D7700CB1FF3 /* VideoSampleApp-Info.plist */ = {isa = PBXFileReference; path = "VideoSampleApp-Info.plist"; sourceTree = "<group>"; };
+		7CB6697013DE5D7700CB1FF3 /* VideoSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoSampleApp-Info.plist"; sourceTree = "<group>"; };
 		7CB6697213DE5D7700CB1FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CB6697413DE5D7700CB1FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7CB6697613DE5D7700CB1FF3 /* VideoSampleApp-Prefix.pch */ = {isa = PBXFileReference; path = "VideoSampleApp-Prefix.pch"; sourceTree = "<group>"; };
-		7CB6697713DE5D7700CB1FF3 /* VideoSampleAppAppDelegate.h */ = {isa = PBXFileReference; path = VideoSampleAppAppDelegate.h; sourceTree = "<group>"; };
+		7CB6697613DE5D7700CB1FF3 /* VideoSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		7CB6697713DE5D7700CB1FF3 /* VideoSampleAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoSampleAppAppDelegate.h; sourceTree = "<group>"; };
 		7CB6697813DE5D7700CB1FF3 /* VideoSampleAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoSampleAppAppDelegate.m; sourceTree = "<group>"; };
 		7CB6697B13DE5D7700CB1FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		7CB6697D13DE5D7700CB1FF3 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		7CB6697D13DE5D7700CB1FF3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7CB6697E13DE5D7700CB1FF3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		7CB6698113DE5D7700CB1FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		7CB6698813DE5D7700CB1FF3 /* VideoSampleAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSampleAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB6698913DE5D7700CB1FF3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7CB6699213DE5D7700CB1FF3 /* VideoSampleAppTests-Info.plist */ = {isa = PBXFileReference; path = "VideoSampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		7CB6699213DE5D7700CB1FF3 /* VideoSampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoSampleAppTests-Info.plist"; sourceTree = "<group>"; };
 		7CB6699413DE5D7700CB1FF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CB6699613DE5D7700CB1FF3 /* VideoSampleAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoSampleAppTests.h; sourceTree = "<group>"; };
 		7CB6699813DE5D7700CB1FF3 /* VideoSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoSampleAppTests.m; sourceTree = "<group>"; };
+		7CB669A313DE5EAF00CB1FF3 /* libG6PayVideo-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libG6PayVideo-1.0.a"; sourceTree = "<group>"; };
+		7CB669A513DE5EAF00CB1FF3 /* G6PayAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6PayAdManager.h; sourceTree = "<group>"; };
+		7CB669A613DE5EAF00CB1FF3 /* G6PayAppIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6PayAppIconView.h; sourceTree = "<group>"; };
+		7CB669A713DE5EAF00CB1FF3 /* G6PayBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6PayBannerView.h; sourceTree = "<group>"; };
+		7CB669A813DE5EAF00CB1FF3 /* G6PayOfferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6PayOfferView.h; sourceTree = "<group>"; };
+		7CB669A913DE5EAF00CB1FF3 /* G6PayURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6PayURLConnection.h; sourceTree = "<group>"; };
+		7CB669AA13DE5EAF00CB1FF3 /* G6PayVideoAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6PayVideoAds.h; sourceTree = "<group>"; };
+		7CB669AC13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Background.png"; sourceTree = "<group>"; };
+		7CB669AD13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Background@2x.png"; sourceTree = "<group>"; };
+		7CB669AE13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Continue-Button.png"; sourceTree = "<group>"; };
+		7CB669AF13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Continue-Button@2x.png"; sourceTree = "<group>"; };
+		7CB669B013DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Download-Button.png"; sourceTree = "<group>"; };
+		7CB669B113DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Download-Button@2x.png"; sourceTree = "<group>"; };
+		7CB669B213DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Logo.png"; sourceTree = "<group>"; };
+		7CB669B313DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Logo@2x.png"; sourceTree = "<group>"; };
+		7CB669B413DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Skip-Button.png"; sourceTree = "<group>"; };
+		7CB669B513DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G6Pay-Video-SDK-Skip-Button@2x.png"; sourceTree = "<group>"; };
+		7CB669B613DE5EAF00CB1FF3 /* G6PayOfferView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = G6PayOfferView.xib; sourceTree = "<group>"; };
+		7CFAAD5313DE661F00B21D5A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +95,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFAAD5413DE661F00B21D5A /* MediaPlayer.framework in Frameworks */,
 				7CB6696913DE5D7700CB1FF3 /* UIKit.framework in Frameworks */,
 				7CB6696B13DE5D7700CB1FF3 /* Foundation.framework in Frameworks */,
 				7CB6696D13DE5D7700CB1FF3 /* CoreGraphics.framework in Frameworks */,
+				7CB669B713DE5EAF00CB1FF3 /* libG6PayVideo-1.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +120,7 @@
 		7CB6695913DE5D7600CB1FF3 = {
 			isa = PBXGroup;
 			children = (
+				7CFAAD5313DE661F00B21D5A /* MediaPlayer.framework */,
 				7CB6696E13DE5D7700CB1FF3 /* VideoSampleApp */,
 				7CB6699013DE5D7700CB1FF3 /* VideoSampleAppTests */,
 				7CB6696713DE5D7700CB1FF3 /* Frameworks */,
@@ -116,6 +151,7 @@
 		7CB6696E13DE5D7700CB1FF3 /* VideoSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				7CB669A213DE5EAF00CB1FF3 /* G6PayVideoAds */,
 				7CB6697713DE5D7700CB1FF3 /* VideoSampleAppAppDelegate.h */,
 				7CB6697813DE5D7700CB1FF3 /* VideoSampleAppAppDelegate.m */,
 				7CB6697A13DE5D7700CB1FF3 /* MainWindow.xib */,
@@ -155,6 +191,47 @@
 				7CB6699313DE5D7700CB1FF3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CB669A213DE5EAF00CB1FF3 /* G6PayVideoAds */ = {
+			isa = PBXGroup;
+			children = (
+				7CB669A313DE5EAF00CB1FF3 /* libG6PayVideo-1.0.a */,
+				7CB669A413DE5EAF00CB1FF3 /* Library */,
+				7CB669AB13DE5EAF00CB1FF3 /* UI */,
+			);
+			path = G6PayVideoAds;
+			sourceTree = "<group>";
+		};
+		7CB669A413DE5EAF00CB1FF3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7CB669A513DE5EAF00CB1FF3 /* G6PayAdManager.h */,
+				7CB669A613DE5EAF00CB1FF3 /* G6PayAppIconView.h */,
+				7CB669A713DE5EAF00CB1FF3 /* G6PayBannerView.h */,
+				7CB669A813DE5EAF00CB1FF3 /* G6PayOfferView.h */,
+				7CB669A913DE5EAF00CB1FF3 /* G6PayURLConnection.h */,
+				7CB669AA13DE5EAF00CB1FF3 /* G6PayVideoAds.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7CB669AB13DE5EAF00CB1FF3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CB669AC13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background.png */,
+				7CB669AD13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background@2x.png */,
+				7CB669AE13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button.png */,
+				7CB669AF13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button@2x.png */,
+				7CB669B013DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button.png */,
+				7CB669B113DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button@2x.png */,
+				7CB669B213DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo.png */,
+				7CB669B313DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo@2x.png */,
+				7CB669B413DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button.png */,
+				7CB669B513DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button@2x.png */,
+				7CB669B613DE5EAF00CB1FF3 /* G6PayOfferView.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +307,17 @@
 				7CB6697313DE5D7700CB1FF3 /* InfoPlist.strings in Resources */,
 				7CB6697C13DE5D7700CB1FF3 /* MainWindow.xib in Resources */,
 				7CB6698213DE5D7700CB1FF3 /* RootViewController.xib in Resources */,
+				7CB669B813DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background.png in Resources */,
+				7CB669B913DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Background@2x.png in Resources */,
+				7CB669BA13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button.png in Resources */,
+				7CB669BB13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Continue-Button@2x.png in Resources */,
+				7CB669BC13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button.png in Resources */,
+				7CB669BD13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Download-Button@2x.png in Resources */,
+				7CB669BE13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo.png in Resources */,
+				7CB669BF13DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Logo@2x.png in Resources */,
+				7CB669C013DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button.png in Resources */,
+				7CB669C113DE5EAF00CB1FF3 /* G6Pay-Video-SDK-Skip-Button@2x.png in Resources */,
+				7CB669C213DE5EAF00CB1FF3 /* G6PayOfferView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +461,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoSampleApp/VideoSampleApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "G6PayVideoAds/**";
 				INFOPLIST_FILE = "VideoSampleApp/VideoSampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/VideoSampleApp/G6PayVideoAds\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -384,7 +481,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoSampleApp/VideoSampleApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "G6PayVideoAds/**";
 				INFOPLIST_FILE = "VideoSampleApp/VideoSampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/VideoSampleApp/G6PayVideoAds\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +549,7 @@
 				7CB6699E13DE5D7700CB1FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CB6699F13DE5D7700CB1FF3 /* Build configuration list for PBXNativeTarget "VideoSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +558,7 @@
 				7CB669A113DE5D7700CB1FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VideoSampleAppAppDelegate : NSObject <UIApplicationDelegate>
+@interface VideoSampleAppAppDelegate : NSObject <G6PayAdManagerDelegate>{
+    G6PayAdManager *videoAdManager;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+
 
 @end

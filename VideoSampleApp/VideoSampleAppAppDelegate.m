@@ -5,7 +5,7 @@
 //  Created by Rangel Spasov on 7/25/11.
 //  Copyright 2011 G6 Media Inc. All rights reserved.
 //
-
+#import "G6PayVideoAds.h"
 #import "VideoSampleAppAppDelegate.h"
 
 @implementation VideoSampleAppAppDelegate
@@ -14,13 +14,45 @@
 @synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{   
+    //Init a G6PayAdManager object to gather video ads and display 
+    
+    videoAdManager = [[G6PayAdManager alloc] 
+                      initWithAppID:@"541"        
+                      prestitialSpaceID:@"1" delegate:self];
+    [videoAdManager playVideoAd];
+    
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
+
+-(void)g6VideoAdsReadyInSpace:(NSString *)spaceID{
+    [videoAdManager playVideoAd];
+}
+//Called when you call the playVideoAd method but the VideoAd has not finished preparing.
+-(void)g6VideoAdsNotReadyInSpace:(NSString *)spaceID{
+    NSLog(@"Ads not ready in spaceID: %@", spaceID);
+}
+//Called when G6Pay does not have any ads to fill your spaceID
+-(void)g6VideoNoVideoFillInSpace:(NSString *)spaceID{
+    NSLog(@"No videos in spaceID:%@", spaceID);
+}
+//Called when the VideoAd Player has given control back to your  application.
+-(void)g6VideoAdDidEndTakeover{
+    //Resume music, game, etc.
+    NSLog(@"Ad ended.");
+}
+-(void)g6VideoAdIsAlreadyPlaying{
+    //Called when you try to play another VideoAd when one is currently playing
+    NSLog(@"Video Ad is Already Playing");
+
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
