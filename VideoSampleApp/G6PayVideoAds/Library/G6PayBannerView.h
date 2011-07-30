@@ -21,10 +21,15 @@ typedef enum G6PayBannerContentSize{
     G6PayVideoOffer *offer;
 	G6PayAdManager *videoManager;
 	G6PayAppIconView *appIcon;
+	
+	BOOL isLoaded;
 }
 @property(nonatomic, retain)G6PayVideoOffer *offer;
 @property(nonatomic, retain)G6PayAdManager *videoManager;
+@property(nonatomic, assign)BOOL isLoaded;
 
 -(id)initWithVideoAdManager:(G6PayAdManager *)themanager contentSize:(G6PayBannerContentSize)size;
 
 @end
+
+

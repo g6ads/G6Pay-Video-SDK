@@ -18,8 +18,8 @@
     //Init a G6PayAdManager object to gather video ads and display 
     
     videoAdManager = [[G6PayAdManager alloc] 
-                      initWithAppID:@"appId"        
-                      prestitialSpaceID:@"prestitialSpaceId" delegate:self];
+                      initWithAppID:@"502"        
+                      prestitialSpaceID:@"54" delegate:self];
     [videoAdManager playVideoAd];
     
     // Override point for customization after application launch.
