@@ -18,8 +18,13 @@
     //Init a G6PayAdManager object to gather video ads and display 
     
     videoAdManager = [[G6PayAdManager alloc] 
-                      initWithAppID:@"502"        
-                      prestitialSpaceID:@"54" delegate:self];
+                      initWithAppID:@"yourAppId"        
+                      prestitialSpaceID:@"yourSpaceId" delegate:self];
+    
+    //pick one of the two orientations - you MUST set one
+    [videoAdManager setVideoOrientation:UIInterfaceOrientationLandscapeLeft];
+    //[videoAdManager setVideoOrientation:UIInterfaceOrientationLandscapeRight];
+    
     [videoAdManager playVideoAd];
     
     // Override point for customization after application launch.

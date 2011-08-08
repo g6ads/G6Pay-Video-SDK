@@ -86,6 +86,8 @@ typedef enum G6PayVideoCacheType {
 	
 	
 	BOOL statusBarWasHidden;
+	
+	UIInterfaceOrientation videoOrientation;
 }
 @property (nonatomic, retain) G6PayURLConnection *connection;
 @property (nonatomic, retain) NSMutableData* data;
@@ -96,6 +98,7 @@ typedef enum G6PayVideoCacheType {
 @property (nonatomic, retain) G6PayVideoOffer *offerCurrentlyDownloading;
 @property (nonatomic, retain) NSString *g6PayAppID;
 @property (nonatomic, assign) BOOL statusBarWasHidden;
+@property (nonatomic, assign) UIInterfaceOrientation videoOrientation;
 
 -(id)initWithAppID:(NSString *)g6AppID prestitialSpaceID:(NSString *)spaceID delegate:(id<G6PayAdManagerDelegate>)theDelegate;
 +(G6PayAdManager *)manager;

@@ -35,14 +35,17 @@
 	IBOutlet UIImageView *logoImage;
 	IBOutlet UIImageView *backgroundImage;
 	
+	UIInterfaceOrientation videoOrientation;
 }
 @property(nonatomic, retain)G6PayVideoOffer *offer;
 @property(nonatomic, retain)MPMoviePlayerController *videoPlayer;
 @property(nonatomic, retain)NSTimer *videoTimer;
 @property(nonatomic, retain)G6PayAdManager *adManager;
 @property(nonatomic, retain)NSURL *previousVideoURL;
+@property(nonatomic, assign)UIInterfaceOrientation videoOrientation;
 
 -(id)initWithG6PayAdManager:(G6PayAdManager *)manager videoOffer:(G6PayVideoOffer *)videoOffer;
+-(id)initWithG6PayAdManager:(G6PayAdManager *)manager videoOffer:(G6PayVideoOffer *)videoOffer orientation:(UIInterfaceOrientation)orientation;
 +(G6PayOfferView *)videoAdPlayer;
 
 -(void)loadVideoAd;
